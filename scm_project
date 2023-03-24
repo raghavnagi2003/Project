@@ -8,3 +8,5 @@ while rows<=n:
         columns+=1
     rows+=1
     print()
+    
+    #coding
