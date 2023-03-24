@@ -1,9 +1,10 @@
+# Pattern designing using Python...
 n=int(input())
-i=1
-while i<=n:
-    j=1
-    while j<=i:
-        print(i,end="")
-        j=j+1
-    i=i+1
+rows=1
+while rows<=n:
+    columns=1
+    while columns<=i:
+        print(rows,end="")
+        columns+=1
+    rows+=1
     print()
